@@ -1,0 +1,29 @@
+.logo{
+  float: left;
+  text-align: left;
+  width: 50%;
+}
+
+.nav{
+  position: absolute;
+  display: inline-block;
+  right: 0;
+  float: right;
+  text-align: right;
+  width: 50%;
+  padding-top: 40px;
+  padding-bottom: 20.5px;
+}
+
+.container{
+  padding: 10px;
+  margin-left: 15%;
+  margin-right: 15%;
+  position: relative;
+  border-bottom: 2px solid black;
+  overflow: auto;
+}
+
+span{
+  padding-left: 25px;
+}
