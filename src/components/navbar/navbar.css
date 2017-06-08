@@ -4,6 +4,16 @@
   width: 50%;
 }
 
+#logoimage{
+  border: 0;
+   font: 0/0 a;
+   text-shadow: none;
+   color: transparent;
+   background: url(https://i.imgur.com/fTnQd5T.png);
+   width: 75px;
+   height: 50px;
+}
+
 .nav{
   position: absolute;
   display: inline-block;
@@ -11,7 +21,7 @@
   float: right;
   text-align: right;
   width: 50%;
-  padding-top: 40px;
+  padding-top: 35px;
   padding-bottom: 20.5px;
 }
 

@@ -7,7 +7,7 @@ class NavBar extends Component {
     return (
       <div className='container'>
         <div className='logo'>
-          <h1>Ian Chong</h1>
+          <h1 id='logoimage'>Ian Chong</h1>
         </div>
         <div className='nav'>
           <span>About</span>
