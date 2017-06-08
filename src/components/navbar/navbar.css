@@ -25,15 +25,19 @@
   padding-bottom: 20.5px;
 }
 
-.container{
+.nvcontainer{
   padding: 10px;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 10%;
+  margin-right: 10%;
   position: relative;
   border-bottom: 2px solid black;
   overflow: auto;
 }
 
 span{
-  padding-left: 25px;
+  padding-left: 30px;
+}
+
+#work{
+  margin-right: 20px;
 }

@@ -5,13 +5,13 @@ class NavBar extends Component {
 
   render () {
     return (
-      <div className='container'>
+      <div className='nvcontainer'>
         <div className='logo'>
           <h1 id='logoimage'>Ian Chong</h1>
         </div>
         <div className='nav'>
           <span>About</span>
-          <span>Work</span>
+          <span id='work'>Work</span>
         </div>
       </div>
     )
