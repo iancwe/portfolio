@@ -17,9 +17,29 @@
 
 .abcontainer{
   text-align: center;
+  height: 80vh;
+  width: 100vw;
+}
+
+.contactrow{
+  padding-bottom: 10px;
 }
 
 .fa{
   color: black;
   padding: 0 15px;
+}
+
+.skillIcons{
+  font-size: 5vh;
+  display: inline-block;
+  word-wrap: auto;
+}
+
+.skillIcons > *{
+  padding-left: 10px;
+}
+
+p{
+  font-size: 1.5em;
 }

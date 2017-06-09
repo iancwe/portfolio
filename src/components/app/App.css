@@ -1,1 +1,4 @@
-
+hr{
+  border-top: solid 2px black;
+  width: 85vw;
+}
