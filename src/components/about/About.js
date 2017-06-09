@@ -29,7 +29,7 @@ class About extends Component {
               </Row>
             </Col>
             <Col md={6}>
-              <a href='https://github.com/iancwe'><img src={require('../images/profilepic2.png')} alt='profile picture' id='pp' /></a>
+              <a href='https://github.com/iancwe'><img src={require('../images/profilepic2.png')} alt='Ian Chong' id='pp' /></a>
             </Col>
           </Row>
         </Grid>

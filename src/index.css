@@ -8,3 +8,11 @@ body {
   color: red;
   background-color: yellow;
 }
+
+p{
+  font-family: 'Roboto', sans-serif;
+}
+
+h1{
+  font-family: 'Roboto Slab', serif;
+}
