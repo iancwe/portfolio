@@ -13,7 +13,8 @@ class Landing extends Component {
         'Mechanical Engineer',
         'Wannabe Professional Gamer',
         'Chendol / Chicken Rice Aficionado',
-        'Needs a Gymming Partner'
+        'Needs a Gymming Partner',
+        'Avid Movegoer'
       ]
     }
     this.randheader = this.randheader.bind(this)
@@ -32,7 +33,7 @@ class Landing extends Component {
   }
 
   componentDidMount () {
-    setInterval(this.randheader, 5000)
+    setInterval(this.randheader, 3000)
   }
 
   render () {

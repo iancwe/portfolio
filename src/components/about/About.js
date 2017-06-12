@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './About.css'
-import {Grid, Row, Col} from 'react-bootstrap'
+import {Grid, Row, Col, Form, FormGroup, ControlLabel} from 'react-bootstrap'
 
 class About extends Component {
 
@@ -30,6 +30,47 @@ class About extends Component {
             </Col>
             <Col md={6}>
               <a href='https://github.com/iancwe'><img src={require('../images/profilepic2.png')} alt='Ian Chong' id='pp' /></a>
+            </Col>
+          </Row>
+          <Row>
+            <Col id='formspree'>
+              <Form horizontal method='POST' action='http://formspree.io/crubbishhute@gmail.com'>
+                <FormGroup >
+                  <Col>
+                    <label>Name</label>
+                  </Col>
+                  <Col>
+                    <input type='text' name='name' placeholder='Morty Smith' />
+                  </Col>
+                </FormGroup>
+                <FormGroup >
+                  <Col>
+                    <label>Email</label>
+                  </Col>
+                  <Col>
+                    <input type='email' name='email' placeholder='morty@gmail.com' />
+                  </Col>
+                </FormGroup>
+                <FormGroup >
+                  <Col>
+                    <label>Subject</label>
+                  </Col>
+                  <Col>
+                    <input type='text' name='subject' placeholder='Sky Color' />
+                  </Col>
+                </FormGroup>
+                <FormGroup >
+                  <Col>
+                    <label>Email</label>
+                  </Col>
+                  <Col>
+                    <textarea name='message' placeholder='Your message' rows='4' />
+                  </Col>
+                </FormGroup>
+                <FormGroup>
+                  <button type='submit'>Send</button>
+                </FormGroup>
+              </Form>
             </Col>
           </Row>
         </Grid>
