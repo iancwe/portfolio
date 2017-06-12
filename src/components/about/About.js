@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './About.css'
-import {Grid, Row, Col, Form, FormGroup, ControlLabel} from 'react-bootstrap'
+import {Grid, Row, Col, Form, FormGroup} from 'react-bootstrap'
 
 class About extends Component {
 
@@ -18,14 +18,14 @@ class About extends Component {
                 <a href='https://www.linkedin.com/in/ian-c-064734144/'><i className='fa fa-linkedin-square fa-3x' aria-hidden='true' /></a>
               </Row>
               <Row className='skillIcons'>
-                <i className='devicon-html5-plain-wordmark colored' />
-                <i className='devicon-css3-plain-wordmark colored' />
-                <i className='devicon-javascript-plain colored' />
-                <i className='devicon-nodejs-plain colored' />
-                <i className='devicon-mongodb-plain colored' />
-                <i className='devicon-postgresql-plain colored' />
-                <i className='devicon-ruby-plain colored' />
-                <i className='devicon-rails-plain colored' />
+                <i className='devicon-html5-plain-wordmark' />
+                <i className='devicon-css3-plain-wordmark' />
+                <i className='devicon-javascript-plain' />
+                <i className='devicon-nodejs-plain' />
+                <i className='devicon-mongodb-plain' />
+                <i className='devicon-postgresql-plain' />
+                <i className='devicon-ruby-plain' />
+                <i className='devicon-rails-plain' />
               </Row>
             </Col>
             <Col md={6}>

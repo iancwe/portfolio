@@ -11,7 +11,7 @@ class NavBar extends Component {
         </div>
         <div className='nav'>
           <span><a href='#AboutCont'>About</a></span>
-          <span id='work'>Work</span>
+          <span><a href='#ProjCont'>Projects</a></span>
         </div>
       </div>
     )
