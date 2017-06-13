@@ -38,12 +38,14 @@ class Projects extends Component {
                 <div><h3>When knowledge mingles with gambling.</h3></div>
                 <div><p>What happens when you get a cultured game like a quiz and taint it with some vices...Eh quizzes can't really drink but it sure can be the new hot bed for renaissance people to gamble at! Well on the facade it just a normal wholesome trivia quiz game, but in the deep bowls of it lurks the hustler that the quiz always wanted to be. Just remember Hustle hard!</p></div>
                 <div>
-                  <span>Built With: </span>
+                  Built With:
                   <i className='devicon-html5-plain icons' />
                   <i className='devicon-css3-plain icons' />
                   <i className='devicon-javascript-plain icons' />
                 </div>
               </Col>
+              <a href='https://iancwe.github.io/Queries/' className='links' target='_blank'><i className='fa fa-desktop fa-1x' aria-hidden='true' />Live Website</a>
+              <a href='https://github.com/iancwe/Queries' className='links' target='_blank'><i className='fa fa-github-square fa-1x' aria-hidden='true' />Check Out Codes</a>
             </Row>
             <Row>
               <a onClick={() => this.back()}>Back to List</a>
@@ -73,6 +75,8 @@ class Projects extends Component {
                   <i className='devicon-mongodb-plain icons' />
                 </div>
               </Col>
+              <a href='https://scrbk.herokuapp.com/' className='links' target='_blank'><i className='fa fa-desktop fa-1x' aria-hidden='true' />Live Website</a>
+              <a href='https://github.com/iancwe/Scratch' className='links' target='_blank'><i className='fa fa-github-square fa-1x' aria-hidden='true' />Check Out Codes</a>
             </Row>
             <Row>
               <a onClick={() => this.back()}>Back to List</a>
@@ -103,6 +107,8 @@ class Projects extends Component {
                   <i className='devicon-postgresql-plain icons' />
                 </div>
               </Col>
+              <a href='http://cachesg.herokuapp.com/' className='links' target='_blank'><i className='fa fa-desktop fa-1x' aria-hidden='true' />Live Website</a>
+              <a href='https://github.com/iancwe/cache' className='links' target='_blank'><i className='fa fa-github-square fa-1x' aria-hidden='true' />Check Out Codes</a>
             </Row>
             <Row>
               <a onClick={() => this.back()}>Back to List</a>
@@ -132,6 +138,8 @@ class Projects extends Component {
                   <i className='devicon-javascript-plain icons' />
                 </div>
               </Col>
+              <a href='https://datumfut.herokuapp.com/' className='links' target='_blank'><i className='fa fa-desktop fa-1x' aria-hidden='true' />Live Website</a>
+              <a href='https://github.com/iancwe/parlay' className='links' target='_blank'><i className='fa fa-github-square fa-1x' aria-hidden='true' />Check Out Codes</a>
             </Row>
             <Row>
               <a onClick={() => this.back()}>Back to List</a>
