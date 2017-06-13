@@ -14,3 +14,12 @@
 .prgif:hover{
   filter: blur(0) grayscale(0%);
 }
+
+#projab{
+  padding-bottom: 2vh;
+  text-align: left;
+}
+
+.icons{
+  padding-right: 10px;
+}
