@@ -7,6 +7,14 @@ import About from '../about/About'
 import './App.css'
 
 class App extends Component {
+
+  constructor (props) {
+    super(props)
+    this.state = {
+      project: 0
+    }
+  }
+
   render () {
     return (
       <div>
@@ -14,7 +22,7 @@ class App extends Component {
         <Landing />
         <hr />
         <ScrollableAnchor id={'ProjCont'}>
-          <Projects />
+          <Projects projects={this.state.project} />
         </ScrollableAnchor>
         <hr />
         <ScrollableAnchor id={'AboutCont'}>

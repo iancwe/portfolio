@@ -1,5 +1,16 @@
 .prcontainer{
   text-align: center;
-  height: 100vh;
   width: 100vw;
+}
+
+.projrw{
+  padding-bottom: 3vh;
+}
+
+.prgif{
+  filter: blur(3px) grayscale(50%);
+}
+
+.prgif:hover{
+  filter: blur(0) grayscale(0%);
 }

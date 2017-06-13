@@ -10,8 +10,8 @@ class NavBar extends Component {
           <h1 id='logoimage'>Ian Chong</h1>
         </div>
         <div className='nav'>
-          <span><a href='#AboutCont'>About</a></span>
           <span><a href='#ProjCont'>Projects</a></span>
+          <span><a href='#AboutCont'>About</a></span>
         </div>
       </div>
     )

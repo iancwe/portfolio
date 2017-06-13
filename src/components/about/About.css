@@ -1,14 +1,12 @@
 #pp{
   max-width: 30vw;
   height: auto;
-  border-radius: 10px;
-  filter: grayscale(50%);
+  filter: grayscale(60%);
   margin-top: 2em;
 }
 
 #pp:hover{
-  filter: blur(1px);
-  border-radius: 20%;
+  filter: blur(0px);
 }
 
 .ColHeader{
