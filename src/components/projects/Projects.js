@@ -32,7 +32,7 @@ class Projects extends Component {
             </Row>
             <Row id='projab'>
               <Col md={6}>
-                <div><img src='https://media.giphy.com/media/xUA7b3XfgxuPclK2bK/giphy.gif' alt='project1' /></div>
+                <div><img src='https://media.giphy.com/media/xUA7b3XfgxuPclK2bK/giphy.gif' alt='project1' className='aboutimg' /></div>
               </Col>
               <Col md={6}>
                 <div><h3>When knowledge mingles with gambling.</h3></div>
@@ -60,7 +60,7 @@ class Projects extends Component {
             </Row>
             <Row id='projab'>
               <Col md={6}>
-                <div><img src='https://media.giphy.com/media/xUA7b2e234ByS8rUC4/giphy.gif' alt='project1' /></div>
+                <div><img src='https://media.giphy.com/media/xUA7b2e234ByS8rUC4/giphy.gif' alt='project1' className='aboutimg' /></div>
               </Col>
               <Col md={6}>
                 <div><h3>Risk comes from not knowing what you're doing</h3></div>
@@ -89,7 +89,7 @@ class Projects extends Component {
             </Row>
             <Row id='projab'>
               <Col md={6}>
-                <div><img src='https://media.giphy.com/media/xUA7b5FtvmsehhJ7AA/giphy.gif' alt='project1' /></div>
+                <div><img src='https://media.giphy.com/media/xUA7b5FtvmsehhJ7AA/giphy.gif' alt='project1' className='aboutimg' /></div>
               </Col>
               <Col md={6}>
                 <div><h3>Youth Finance Saving Solution</h3></div>
@@ -119,7 +119,7 @@ class Projects extends Component {
             </Row>
             <Row id='projab'>
               <Col md={6}>
-                <div><img src='https://media.giphy.com/media/xUA7aTomZO6j5KiAVO/giphy.gif' alt='project1' /></div>
+                <div><img src='https://media.giphy.com/media/xUA7aTomZO6j5KiAVO/giphy.gif' alt='project1' className='aboutimg' /></div>
               </Col>
               <Col md={6}>
                 <div><h3>The ball is round, the game lasts ninety minutes, and everything else is just theory</h3></div>

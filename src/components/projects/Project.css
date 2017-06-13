@@ -9,6 +9,7 @@
 
 .prgif{
   filter: blur(3px) grayscale(50%);
+  width: 35vw;
 }
 
 .prgif:hover{
@@ -22,4 +23,10 @@
 
 .icons{
   padding-right: 10px;
+}
+
+@media only screen and (max-width : 480px) and (orientation: portrait) {
+  .aboutimg{
+    width: 80vw;
+  }
 }
