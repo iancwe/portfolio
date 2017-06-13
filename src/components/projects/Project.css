@@ -29,4 +29,8 @@
   .aboutimg{
     width: 80vw;
   }
+  .prgif{
+    width: 80vw;
+    filter: blur(0) grayscale(0%);
+  }
 }
