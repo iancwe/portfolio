@@ -18,6 +18,13 @@ class Projects extends Component {
   }
 
   render () {
+    if (this.state.project === 1) {
+      return (
+        <div className='prcontainer'>
+          <h1>project 1</h1>
+        </div>
+      )
+    }
     return (
       <div className='prcontainer'>
         <Grid>
