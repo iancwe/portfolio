@@ -3,6 +3,7 @@ import ScrollableAnchor from 'react-scrollable-anchor'
 import NavBar from '../navbar/navbar'
 import Landing from '../landing/landing'
 import Projects from '../projects/Projects'
+import Footer from '../footer/Footer'
 import About from '../about/About'
 import './App.css'
 
@@ -28,6 +29,7 @@ class App extends Component {
         <ScrollableAnchor id={'AboutCont'}>
           <About />
         </ScrollableAnchor>
+        <Footer />
       </div>
     )
   }
