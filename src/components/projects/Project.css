@@ -34,3 +34,7 @@
     filter: blur(0) grayscale(0%);
   }
 }
+
+#projtitle{
+  padding-bottom: 10px;
+}

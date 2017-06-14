@@ -68,7 +68,7 @@ class Projects extends Component {
                 <div><h3>Risk comes from not knowing what you're doing</h3></div>
                 <div><p>This application allows users to learn from the best or better traders.Like the saying goes "Imitation is the sincerest form of flattery-Charles Caleb Colton" However that is not all the Scratch can offer, it also keeps track of your current portfolio and shows you how much money you earned or lose...So with this app I believe that one can improve or just learn the ropes of trading.</p></div>
                 <div>
-                  <span>Built With: </span>
+                  Built With:
                   <i className='devicon-html5-plain icons' />
                   <i className='devicon-css3-plain icons' />
                   <i className='devicon-express-original icons' />
@@ -97,10 +97,10 @@ class Projects extends Component {
               </Col>
               <Col md={6}>
                 <div><h3>Youth Finance Saving Solution</h3></div>
-                <div><p>We created Cache as a way for savers to earn a very high risk-free return, like interest from a bank savings account. Except that "interest" comes in the form of rewards from consumer partners that want younger consumers to come through their doors. People in our plan can earn as much as 12% on each dollar they save over the course of a year! That's real savings that can be spent on great consumer partners. And we even given them 25% of those savings in cash back!
+                <div><p>We created Cache as a way for savers to earn a very high risk-free return, like interest from a bank savings account. Except that "interest" comes in the form of rewards from consumer partners that want younger consumers to come through their doors. People in our plan can earn as much as 12% on each dollar they save over the course of a year! And we even given them 25% of those savings in cash back!
                 </p></div>
                 <div>
-                  <span>Built With: </span>
+                  Built With:
                   <i className='devicon-html5-plain icons' />
                   <i className='devicon-css3-plain icons' />
                   <i className='devicon-rails-plain icons' />
@@ -131,7 +131,7 @@ class Projects extends Component {
                 <div><h3>The ball is round, the game lasts ninety minutes, and everything else is just theory</h3></div>
                 <div><p>Well, most people who are avid football fans might have heard of this quote before. I believe in it to a certain extend...however statistic and history always comes back and bite us in the bum. So lets hope with mathematics on our side we can foretell the games and prove that saying a little wrong.</p></div>
                 <div>
-                  <span>Built With: </span>
+                  Built With:
                   <i className='devicon-react-original icons' />
                   <i className='devicon-html5-plain icons' />
                   <i className='devicon-css3-plain icons' />
@@ -152,11 +152,12 @@ class Projects extends Component {
       <div className='prcontainer'>
         <Grid>
           <Row>
-            <h1>Projects</h1>
+            <h1 id='projtitle'>Projects</h1>
           </Row>
           <Row className='projrw'>
             <Col md={6}>
-              <div style={{border: '1px solid black'}}>
+              <div>
+                {/* <div style={{border: '1px solid black'}}> */}
                 <div><img src='https://media.giphy.com/media/xUA7b3XfgxuPclK2bK/giphy.gif' alt='placeholder' onClick={() => this.project(1)} className='prgif' /><h3>Queries</h3></div>
               </div>
             </Col>
