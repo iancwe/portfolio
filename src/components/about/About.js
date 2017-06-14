@@ -34,7 +34,7 @@ class About extends Component {
           </Row>
           <Row>
             <Col id='formspree'>
-              <Form horizontal method='POST' action='http://formspree.io/crubbishhute@gmail.com'>
+              <Form horizontal method='POST' action='https://formspree.io/crubbishhute@gmail.com'>
                 <FormGroup >
                   <Col>
                     <label>Name</label>
