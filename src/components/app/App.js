@@ -19,7 +19,9 @@ class App extends Component {
   render () {
     return (
       <div>
-        <NavBar />
+        <ScrollableAnchor id={'top'}>
+          <NavBar />
+        </ScrollableAnchor>
         <Landing />
         <hr />
         <ScrollableAnchor id={'ProjCont'}>
