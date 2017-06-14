@@ -22,8 +22,6 @@ class App extends Component {
         <ScrollableAnchor id={'top'}>
           <NavBar />
         </ScrollableAnchor>
-        <Landing />
-        <hr />
         <ScrollableAnchor id={'ProjCont'}>
           <Projects projects={this.state.project} />
         </ScrollableAnchor>

@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import {Grid, Row} from 'react-bootstrap'
-import Particles from 'react-particles-js'
 import './landing.css'
 
 class Landing extends Component {
@@ -40,23 +39,14 @@ class Landing extends Component {
   render () {
     return (
       <div className='wrapper'>
-        <Particles className='canvas' params={{particles: {line_linked: {shadow: {
-                      enable: true,
-                      color: '#4a4848',
-            					blur: 1
-            				}
-            			}
-            		}
-            	}} >
-          <Grid>
-            <header>
+          <Grid className='text'>
+            <header className='text'>
               <Row id='landingtext'>
                 <h1 className='text'>Ian Chong</h1>
                 <h3 className='text'>{this.state.subheader[this.state.pos]}</h3>
               </Row>
             </header>
           </Grid>
-        </Particles>
       </div>
     )
   }
