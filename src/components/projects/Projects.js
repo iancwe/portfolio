@@ -89,7 +89,7 @@ class Projects extends Component {
         <div className='prcontainer'>
           <Grid>
             <Row>
-              <h1>Scratch</h1>
+              <h1>Cache</h1>
             </Row>
             <Row id='projab'>
               <Col md={6}>
@@ -121,7 +121,7 @@ class Projects extends Component {
         <div className='prcontainer'>
           <Grid>
             <Row>
-              <h1>Queries</h1>
+              <h1>Datums?</h1>
             </Row>
             <Row id='projab'>
               <Col md={6}>
@@ -156,7 +156,9 @@ class Projects extends Component {
           </Row>
           <Row className='projrw'>
             <Col md={6}>
-              <div><img src='https://media.giphy.com/media/xUA7b3XfgxuPclK2bK/giphy.gif' alt='placeholder' onClick={() => this.project(1)} className='prgif' /><h3>Queries</h3></div>
+              <div style={{border: '1px solid black'}}>
+                <div><img src='https://media.giphy.com/media/xUA7b3XfgxuPclK2bK/giphy.gif' alt='placeholder' onClick={() => this.project(1)} className='prgif' /><h3>Queries</h3></div>
+              </div>
             </Col>
             <Col md={6}>
               <div><img src='https://media.giphy.com/media/xUA7b2e234ByS8rUC4/giphy.gif' alt='placeholder' onClick={() => this.project(2)} className='prgif' /><h3>Scratch</h3></div>
