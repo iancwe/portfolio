@@ -8,10 +8,10 @@ body {
   background-color: #00ced4;
 }
 
-p{
+p, a{
   font-family: 'Roboto', sans-serif;
 }
 
-h1{
+h1, h2, h3{
   font-family: 'Roboto Slab', serif;
 }

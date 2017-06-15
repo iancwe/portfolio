@@ -16,8 +16,8 @@ class NavBar extends Component {
           <h1 id='logoimage'>Iancwe</h1>
         </div>
         <div className='nav'>
-          <span><a href='#ProjCont'>Projects</a></span>
-          <span><a href='#AboutCont'>About</a></span>
+          <span><a href='#ProjCont' className='links'>Projects</a></span>
+          <span><a href='#AboutCont' className='links'>About</a></span>
         </div>
       </div>
     )

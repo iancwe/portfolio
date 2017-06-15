@@ -3,6 +3,7 @@
   height: auto;
   filter: grayscale(60%);
   margin-top: 2em;
+  border-radius: 25px;
 }
 
 #pp:hover{

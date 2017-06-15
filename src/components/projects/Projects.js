@@ -44,8 +44,8 @@ class Projects extends Component {
                   <i className='devicon-javascript-plain icons' />
                 </div>
               </Col>
-              <a href='https://iancwe.github.io/Queries/' className='links' target='_blank'><i className='fa fa-desktop fa-1x' aria-hidden='true' />Live Website</a>
-              <a href='https://github.com/iancwe/Queries' className='links' target='_blank'><i className='fa fa-github-square fa-1x' aria-hidden='true' />Check Out Codes</a>
+              <a href='https://iancwe.github.io/Queries/' className='links' target='_blank' rel='noopener noreferrer' ><i className='fa fa-desktop fa-1x' aria-hidden='true' />Live Website</a>
+              <a href='https://github.com/iancwe/Queries' className='links' target='_blank' rel='noopener noreferrer' ><i className='fa fa-github-square fa-1x' aria-hidden='true' />Check Out Codes</a>
             </Row>
             <Row>
               <a onClick={() => this.back()}>Back to List</a>
@@ -75,8 +75,8 @@ class Projects extends Component {
                   <i className='devicon-mongodb-plain icons' />
                 </div>
               </Col>
-              <a href='https://scrbk.herokuapp.com/' className='links' target='_blank'><i className='fa fa-desktop fa-1x' aria-hidden='true' />Live Website</a>
-              <a href='https://github.com/iancwe/Scratch' className='links' target='_blank'><i className='fa fa-github-square fa-1x' aria-hidden='true' />Check Out Codes</a>
+              <a href='https://scrbk.herokuapp.com/' className='links' target='_blank' rel='noopener noreferrer'><i className='fa fa-desktop fa-1x' aria-hidden='true' />Live Website</a>
+              <a href='https://github.com/iancwe/Scratch' className='links' target='_blank' rel='noopener noreferrer'><i className='fa fa-github-square fa-1x' aria-hidden='true' />Check Out Codes</a>
             </Row>
             <Row>
               <a onClick={() => this.back()}>Back to List</a>
@@ -107,8 +107,8 @@ class Projects extends Component {
                   <i className='devicon-postgresql-plain icons' />
                 </div>
               </Col>
-              <a href='http://cachesg.herokuapp.com/' className='links' target='_blank'><i className='fa fa-desktop fa-1x' aria-hidden='true' />Live Website</a>
-              <a href='https://github.com/iancwe/cache' className='links' target='_blank'><i className='fa fa-github-square fa-1x' aria-hidden='true' />Check Out Codes</a>
+              <a href='http://cachesg.herokuapp.com/' className='links' target='_blank' rel='noopener noreferrer'><i className='fa fa-desktop fa-1x' aria-hidden='true' />Live Website</a>
+              <a href='https://github.com/iancwe/cache' className='links' target='_blank' rel='noopener noreferrer'><i className='fa fa-github-square fa-1x' aria-hidden='true' />Check Out Codes</a>
             </Row>
             <Row>
               <a onClick={() => this.back()}>Back to List</a>
@@ -138,8 +138,8 @@ class Projects extends Component {
                   <i className='devicon-javascript-plain icons' />
                 </div>
               </Col>
-              <a href='https://datumfut.herokuapp.com/' className='links' target='_blank'><i className='fa fa-desktop fa-1x' aria-hidden='true' />Live Website</a>
-              <a href='https://github.com/iancwe/parlay' className='links' target='_blank'><i className='fa fa-github-square fa-1x' aria-hidden='true' />Check Out Codes</a>
+              <a href='https://datumfut.herokuapp.com/' className='links' target='_blank' rel='noopener noreferrer'><i className='fa fa-desktop fa-1x' aria-hidden='true' />Live Website</a>
+              <a href='https://github.com/iancwe/parlay' className='links' target='_blank' rel='noopener noreferrer'><i className='fa fa-github-square fa-1x' aria-hidden='true' />Check Out Codes</a>
             </Row>
             <Row>
               <a onClick={() => this.back()}>Back to List</a>

@@ -8,12 +8,13 @@
 }
 
 .prgif{
-  filter: blur(3px) grayscale(50%);
+  filter: blur(0) grayscale(0%);
   width: 35vw;
+  transition: all 1s ease;
 }
 
 .prgif:hover{
-  filter: blur(0) grayscale(0%);
+  filter: blur(3px) grayscale(50%);
 }
 
 #projab{
