@@ -53,3 +53,16 @@ label{
 .input{
   max-width: 1200px;
 }
+
+.iconab{
+  font-size: 3em;
+  color: black;
+}
+
+.ion-social-github:hover{
+  color: #555;
+}
+
+.ion-social-linkedin:hover{
+  color: #0077B5;
+}

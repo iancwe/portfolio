@@ -39,13 +39,15 @@ class Projects extends Component {
                 <div><p>What happens when you get a cultured game like a quiz and taint it with some vices...Eh quizzes can't really drink but it sure can be the new hot bed for renaissance people to gamble at! Well on the facade it just a normal wholesome trivia quiz game, but in the deep bowls of it lurks the hustler that the quiz always wanted to be. Just remember Hustle hard!</p></div>
                 <div>
                   Built With:
-                  <i className='devicon-html5-plain icons' />
-                  <i className='devicon-css3-plain icons' />
-                  <i className='devicon-javascript-plain icons' />
+                  <i className='devicon-html5-plain icons built' />
+                  <i className='devicon-css3-plain icons built' />
+                  <i className='devicon-javascript-plain icons built' />
                 </div>
               </Col>
-              <a href='https://iancwe.github.io/Queries/' className='links' target='_blank' rel='noopener noreferrer' ><i className='fa fa-desktop fa-1x' aria-hidden='true' />Live Website</a>
-              <a href='https://github.com/iancwe/Queries' className='links' target='_blank' rel='noopener noreferrer' ><i className='fa fa-github-square fa-1x' aria-hidden='true' />Check Out Codes</a>
+              <Row className='livegit'>
+                <a href='https://iancwe.github.io/Queries/' className='links' target='_blank' rel='noopener noreferrer' ><i className='icon ion-earth' /> Live Website</a>
+                <a href='https://github.com/iancwe/Queries' className='links' target='_blank' rel='noopener noreferrer' ><i className='icon ion-social-github' /> Check Out Codes</a>
+              </Row>
             </Row>
             <Row>
               <Button onClick={() => this.back()}>Back to List</Button>
@@ -69,14 +71,16 @@ class Projects extends Component {
                 <div><p>This application allows users to learn from the best or better traders.Like the saying goes "Imitation is the sincerest form of flattery-Charles Caleb Colton" However that is not all the Scratch can offer, it also keeps track of your current portfolio and shows you how much money you earned or lose...So with this app I believe that one can improve or just learn the ropes of trading.</p></div>
                 <div>
                   Built With:
-                  <i className='devicon-html5-plain icons' />
-                  <i className='devicon-css3-plain icons' />
-                  <i className='devicon-express-original icons' />
-                  <i className='devicon-mongodb-plain icons' />
+                  <i className='devicon-html5-plain icons built' />
+                  <i className='devicon-css3-plain icons built' />
+                  <i className='devicon-express-original icons built' />
+                  <i className='devicon-mongodb-plain icons built' />
                 </div>
               </Col>
-              <a href='https://scrbk.herokuapp.com/' className='links' target='_blank' rel='noopener noreferrer'><i className='fa fa-desktop fa-1x' aria-hidden='true' />Live Website</a>
-              <a href='https://github.com/iancwe/Scratch' className='links' target='_blank' rel='noopener noreferrer'><i className='fa fa-github-square fa-1x' aria-hidden='true' />Check Out Codes</a>
+              <Row className='livegit'>
+                <a href='https://scrbk.herokuapp.com/' className='links' target='_blank' rel='noopener noreferrer'><i className='icon ion-earth' /> Live Website</a>
+                <a href='https://github.com/iancwe/Scratch' className='links' target='_blank' rel='noopener noreferrer'><i className='icon ion-social-github' /> Check Out Codes</a>
+              </Row>
             </Row>
             <Row>
               <Button onClick={() => this.back()}>Back to List</Button>
@@ -101,14 +105,16 @@ class Projects extends Component {
                 </p></div>
                 <div>
                   Built With:
-                  <i className='devicon-html5-plain icons' />
-                  <i className='devicon-css3-plain icons' />
-                  <i className='devicon-rails-plain icons' />
-                  <i className='devicon-postgresql-plain icons' />
+                  <i className='devicon-html5-plain icons built' />
+                  <i className='devicon-css3-plain icons built' />
+                  <i className='devicon-rails-plain icons built' />
+                  <i className='devicon-postgresql-plain icons built' />
                 </div>
               </Col>
-              <a href='http://cachesg.herokuapp.com/' className='links' target='_blank' rel='noopener noreferrer'><i className='fa fa-desktop fa-1x' aria-hidden='true' />Live Website</a>
-              <a href='https://github.com/iancwe/cache' className='links' target='_blank' rel='noopener noreferrer'><i className='fa fa-github-square fa-1x' aria-hidden='true' />Check Out Codes</a>
+              <Row className='livegit'>
+                <a href='http://cachesg.herokuapp.com/' className='links' target='_blank' rel='noopener noreferrer'><i className='icon ion-earth' /> Live Website</a>
+                <a href='https://github.com/iancwe/cache' className='links' target='_blank' rel='noopener noreferrer'><i className='icon ion-social-github' /> Check Out Codes</a>
+              </Row>
             </Row>
             <Row>
               <Button onClick={() => this.back()}>Back to List</Button>
@@ -132,14 +138,16 @@ class Projects extends Component {
                 <div><p>Well, most people who are avid football fans might have heard of this quote before. I believe in it to a certain extend...however statistic and history always comes back and bite us in the bum. So lets hope with mathematics on our side we can foretell the games and prove that saying a little wrong.</p></div>
                 <div>
                   Built With:
-                  <i className='devicon-react-original icons' />
-                  <i className='devicon-html5-plain icons' />
-                  <i className='devicon-css3-plain icons' />
-                  <i className='devicon-javascript-plain icons' />
+                  <i className='devicon-react-original icons built' />
+                  <i className='devicon-html5-plain icons built' />
+                  <i className='devicon-css3-plain icons built' />
+                  <i className='devicon-javascript-plain icons built' />
                 </div>
               </Col>
-              <a href='https://datumfut.herokuapp.com/' className='links' target='_blank' rel='noopener noreferrer'><i className='fa fa-desktop fa-1x' aria-hidden='true' />Live Website</a>
-              <a href='https://github.com/iancwe/parlay' className='links' target='_blank' rel='noopener noreferrer'><i className='fa fa-github-square fa-1x' aria-hidden='true' />Check Out Codes</a>
+              <Row className='livegit'>
+                <a href='https://datumfut.herokuapp.com/' className='links' target='_blank' rel='noopener noreferrer'><i className='icon ion-earth' /> Live Website</a>
+                <a href='https://github.com/iancwe/parlay' className='links' target='_blank' rel='noopener noreferrer'><i className='icon ion-social-github' /> Check Out Codes</a>
+              </Row>
             </Row>
             <Row>
               <Button onClick={() => this.back()}>Back to List</Button>
