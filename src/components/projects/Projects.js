@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {Grid, Row, Col} from 'react-bootstrap'
+import {Grid, Row, Col, Button} from 'react-bootstrap'
 import './Project.css'
 
 class Projects extends Component {
@@ -32,7 +32,7 @@ class Projects extends Component {
             </Row>
             <Row id='projab'>
               <Col md={6}>
-                <div><img src='https://media.giphy.com/media/xUA7b3XfgxuPclK2bK/giphy.gif' alt='project1' className='aboutimg' /></div>
+                <div><a href='https://iancwe.github.io/Queries/' className='links' target='_blank' rel='noopener noreferrer' ><img src='https://media.giphy.com/media/xUA7b3XfgxuPclK2bK/giphy.gif' alt='project1' className='aboutimg' /></a></div>
               </Col>
               <Col md={6}>
                 <div><h3>When knowledge mingles with gambling.</h3></div>
@@ -48,7 +48,7 @@ class Projects extends Component {
               <a href='https://github.com/iancwe/Queries' className='links' target='_blank' rel='noopener noreferrer' ><i className='fa fa-github-square fa-1x' aria-hidden='true' />Check Out Codes</a>
             </Row>
             <Row>
-              <a onClick={() => this.back()}>Back to List</a>
+              <Button onClick={() => this.back()}>Back to List</Button>
             </Row>
           </Grid>
         </div>
@@ -62,7 +62,7 @@ class Projects extends Component {
             </Row>
             <Row id='projab'>
               <Col md={6}>
-                <div><img src='https://media.giphy.com/media/xUA7b2e234ByS8rUC4/giphy.gif' alt='project1' className='aboutimg' /></div>
+                <div><a href='https://scrbk.herokuapp.com/' className='links' target='_blank' rel='noopener noreferrer'><img src='https://media.giphy.com/media/xUA7b2e234ByS8rUC4/giphy.gif' alt='project1' className='aboutimg' /></a></div>
               </Col>
               <Col md={6}>
                 <div><h3>Risk comes from not knowing what you're doing</h3></div>
@@ -79,7 +79,7 @@ class Projects extends Component {
               <a href='https://github.com/iancwe/Scratch' className='links' target='_blank' rel='noopener noreferrer'><i className='fa fa-github-square fa-1x' aria-hidden='true' />Check Out Codes</a>
             </Row>
             <Row>
-              <a onClick={() => this.back()}>Back to List</a>
+              <Button onClick={() => this.back()}>Back to List</Button>
             </Row>
           </Grid>
         </div>
@@ -93,7 +93,7 @@ class Projects extends Component {
             </Row>
             <Row id='projab'>
               <Col md={6}>
-                <div><img src='https://media.giphy.com/media/xUA7b5FtvmsehhJ7AA/giphy.gif' alt='project1' className='aboutimg' /></div>
+                <div><a href='http://cachesg.herokuapp.com/' className='links' target='_blank' rel='noopener noreferrer'><img src='https://media.giphy.com/media/xUA7b5FtvmsehhJ7AA/giphy.gif' alt='project1' className='aboutimg' /></a></div>
               </Col>
               <Col md={6}>
                 <div><h3>Youth Finance Saving Solution</h3></div>
@@ -111,7 +111,7 @@ class Projects extends Component {
               <a href='https://github.com/iancwe/cache' className='links' target='_blank' rel='noopener noreferrer'><i className='fa fa-github-square fa-1x' aria-hidden='true' />Check Out Codes</a>
             </Row>
             <Row>
-              <a onClick={() => this.back()}>Back to List</a>
+              <Button onClick={() => this.back()}>Back to List</Button>
             </Row>
           </Grid>
         </div>
@@ -125,7 +125,7 @@ class Projects extends Component {
             </Row>
             <Row id='projab'>
               <Col md={6}>
-                <div><img src='https://media.giphy.com/media/xUA7aTomZO6j5KiAVO/giphy.gif' alt='project1' className='aboutimg' /></div>
+                <div><a href='https://datumfut.herokuapp.com/' className='links' target='_blank' rel='noopener noreferrer'><img src='https://media.giphy.com/media/xUA7aTomZO6j5KiAVO/giphy.gif' alt='project1' className='aboutimg' /></a></div>
               </Col>
               <Col md={6}>
                 <div><h3>The ball is round, the game lasts ninety minutes, and everything else is just theory</h3></div>
@@ -142,7 +142,7 @@ class Projects extends Component {
               <a href='https://github.com/iancwe/parlay' className='links' target='_blank' rel='noopener noreferrer'><i className='fa fa-github-square fa-1x' aria-hidden='true' />Check Out Codes</a>
             </Row>
             <Row>
-              <a onClick={() => this.back()}>Back to List</a>
+              <Button onClick={() => this.back()}>Back to List</Button>
             </Row>
           </Grid>
         </div>
@@ -156,18 +156,18 @@ class Projects extends Component {
           </Row>
           <Row className='projrw'>
             <Col md={6}>
-              <div><img src='https://media.giphy.com/media/xUA7b3XfgxuPclK2bK/giphy.gif' alt='placeholder' onClick={() => this.project(1)} className='prgif' /><h3>Queries</h3></div>
+              <div><h3>Queries</h3><img src='https://media.giphy.com/media/xUA7b3XfgxuPclK2bK/giphy.gif' alt='placeholder' onClick={() => this.project(1)} className='prgif' /></div>
             </Col>
             <Col md={6}>
-              <div><img src='https://media.giphy.com/media/xUA7b2e234ByS8rUC4/giphy.gif' alt='placeholder' onClick={() => this.project(2)} className='prgif' /><h3>Scratch</h3></div>
+              <div><h3>Scratch</h3><img src='https://media.giphy.com/media/xUA7b2e234ByS8rUC4/giphy.gif' alt='placeholder' onClick={() => this.project(2)} className='prgif' /></div>
             </Col>
           </Row>
           <Row className='projrw'>
             <Col md={6}>
-              <div><img src='https://media.giphy.com/media/xUA7b5FtvmsehhJ7AA/giphy.gif' alt='placeholder' onClick={() => this.project(3)} className='prgif' /><h3>Cache</h3></div>
+              <div><h3>Cache</h3><img src='https://media.giphy.com/media/xUA7b5FtvmsehhJ7AA/giphy.gif' alt='placeholder' onClick={() => this.project(3)} className='prgif' /></div>
             </Col>
             <Col md={6}>
-              <div><img src='https://media.giphy.com/media/xUA7aTomZO6j5KiAVO/giphy.gif' alt='placeholder' onClick={() => this.project(4)} className='prgif' /><h3>Datums?</h3></div>
+              <div><h3>Datums?</h3><img src='https://media.giphy.com/media/xUA7aTomZO6j5KiAVO/giphy.gif' alt='placeholder' onClick={() => this.project(4)} className='prgif' /></div>
             </Col>
           </Row>
         </Grid>

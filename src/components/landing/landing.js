@@ -60,7 +60,7 @@ class Landing extends Component {
         <Grid>
           <header>
             <Row>
-              <h1 className='name'>Ian Chong</h1>
+              <h1 className='name' id='myname'>Ian Chong</h1>
               <h3 className='subhead'>{this.state.subheader[this.state.pos]}</h3>
             </Row>
             <Row>
