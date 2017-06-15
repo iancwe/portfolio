@@ -3,3 +3,12 @@ header{
   text-align: center;
   padding-top: 35vh;
 }
+
+.name, .subhead,.scroll, .fa {
+  opacity: 0;
+  transition: 2s opacity;
+}
+
+.fadeshow{
+  opacity: 1;
+}

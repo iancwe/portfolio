@@ -156,10 +156,7 @@ class Projects extends Component {
           </Row>
           <Row className='projrw'>
             <Col md={6}>
-              <div>
-                {/* <div style={{border: '1px solid black'}}> */}
-                <div><img src='https://media.giphy.com/media/xUA7b3XfgxuPclK2bK/giphy.gif' alt='placeholder' onClick={() => this.project(1)} className='prgif' /><h3>Queries</h3></div>
-              </div>
+              <div><img src='https://media.giphy.com/media/xUA7b3XfgxuPclK2bK/giphy.gif' alt='placeholder' onClick={() => this.project(1)} className='prgif' /><h3>Queries</h3></div>
             </Col>
             <Col md={6}>
               <div><img src='https://media.giphy.com/media/xUA7b2e234ByS8rUC4/giphy.gif' alt='placeholder' onClick={() => this.project(2)} className='prgif' /><h3>Scratch</h3></div>

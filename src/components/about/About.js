@@ -32,38 +32,38 @@ class About extends Component {
             </Col>
           </Row>
           <Row>
-            <Col id='formspree'>
+            <Col md={12} id='formspree'>
               <Form horizontal method='POST' action='https://formspree.io/crubbishhute@gmail.com'>
                 <FormGroup >
-                  <Col>
+                  <Col md={12}>
                     <label>Name</label>
                   </Col>
-                  <Col>
-                    <input type='text' name='name' placeholder='Morty Smith' />
+                  <Col md={12}>
+                    <input type='text' name='name' placeholder='Morty Smith' className='input' />
                   </Col>
                 </FormGroup>
                 <FormGroup >
-                  <Col>
+                  <Col md={12}>
                     <label>Email</label>
                   </Col>
-                  <Col>
-                    <input type='email' name='email' placeholder='morty@gmail.com' />
+                  <Col md={12}>
+                    <input type='email' name='email' placeholder='morty@gmail.com' className='input' />
                   </Col>
                 </FormGroup>
                 <FormGroup >
-                  <Col>
+                  <Col md={12}>
                     <label>Subject</label>
                   </Col>
-                  <Col>
-                    <input type='text' name='subject' placeholder='Sky Color' />
+                  <Col md={12}>
+                    <input type='text' name='subject' placeholder='Sky Color' className='input' />
                   </Col>
                 </FormGroup>
                 <FormGroup >
-                  <Col>
+                  <Col md={12}>
                     <label>Email</label>
                   </Col>
-                  <Col>
-                    <textarea name='message' placeholder='Your message' rows='4' />
+                  <Col md={12}>
+                    <textarea name='message' placeholder='Your message' rows='4' className='input' />
                   </Col>
                 </FormGroup>
                 <FormGroup>

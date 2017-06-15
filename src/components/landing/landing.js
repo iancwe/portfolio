@@ -33,20 +33,45 @@ class Landing extends Component {
   }
 
   componentDidMount () {
-    setInterval(this.randheader, 3000)
+    setInterval(this.randheader, 4000)
   }
 
   render () {
+    document.addEventListener('DOMContentLoaded', function (event) {
+      setTimeout(() => {
+        let element = document.querySelector('.name')
+        element.classList.add('fadeshow')
+      }, 800)
+      setTimeout(() => {
+        let subheaderfade = document.querySelector('.subhead')
+        subheaderfade.classList.add('fadeshow')
+      }, 1500)
+      setTimeout(() => {
+        let scrollshow = document.querySelector('.scroll')
+        scrollshow.classList.add('fadeshow')
+      }, 2200)
+      setTimeout(() => {
+        let iconshow = document.querySelector('.fa')
+        iconshow.classList.add('fadeshow')
+      }, 3000)
+    })
     return (
       <div className='wrapper'>
-          <Grid className='text'>
-            <header className='text'>
-              <Row id='landingtext'>
-                <h1 className='text'>Ian Chong</h1>
-                <h3 className='text'>{this.state.subheader[this.state.pos]}</h3>
-              </Row>
-            </header>
-          </Grid>
+        <Grid>
+          <header>
+            <Row>
+              <h1 className='name'>Ian Chong</h1>
+              <h3 className='subhead'>{this.state.subheader[this.state.pos]}</h3>
+            </Row>
+            <Row>
+              <div>
+                <br />
+                <p className='scroll'>Scroll for More</p>
+                <i className='fa fa-angle-down' aria-hidden='true' />
+              </div>
+            </Row>
+          </header>
+        </Grid>
       </div>
     )
   }
