@@ -43,7 +43,7 @@
 }
 
 span{
-  padding-left: 30px;
+  padding-left: 20px;
 }
 
 #work{
@@ -56,7 +56,7 @@ span{
     position: relative;
     z-index: 0;
     cursor: pointer;
-    font-size: 1.15em;
+    font-size: 1.1em;
     opacity: 0.8;
     transition: all 1.5s ease;
 }
