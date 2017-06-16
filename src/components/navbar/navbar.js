@@ -13,7 +13,7 @@ class NavBar extends Component {
     return (
       <div className='nvcontainer'>
         <div className='logo'>
-          <h1 id='logoimage'>Ian</h1>
+          <h1 id='logoimage'>Iancwe</h1>
         </div>
         <div className='nav'>
           <span><a href='#ProjCont' className='links'>Projects</a></span>

@@ -10,7 +10,8 @@ class Footer extends React.Component {
         <Grid>
           <Row>
             <Col md={4} mdOffset={4} id='tplink'>
-              <a href='#top'>Back to Top</a>
+              <div><a href='#top' id='bktp'><div><i className='icon ion-chevron-up' /></div>
+              Back to Top</a></div>
             </Col>
             <Col md={4} id='copyright'>
               <h4>© Ian Chong</h4>

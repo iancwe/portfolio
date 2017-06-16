@@ -10,3 +10,14 @@
 #tplink{
   text-align: center;
 }
+
+#bktp{
+  color: black;
+  opacity: 0.8;
+  transition: all 1.5s ease;
+}
+
+#bktp:hover{
+  color: #00ced4;
+  text-decoration: none;
+}

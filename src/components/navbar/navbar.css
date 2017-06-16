@@ -4,16 +4,6 @@
   width: 50%;
 }
 
-#logoimage{
-  border: 0;
-   font: 0/0 a;
-   text-shadow: none;
-   color: transparent;
-   background: url(https://i.imgur.com/I952SmT.png);
-   width: 45px;
-   height: 45px;
-}
-
 @media only screen and (max-width : 480px) and (orientation: portrait) {
   #logoimage{
     border: 0;
